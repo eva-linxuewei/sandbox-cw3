@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://d3js.org/d3.v4.js"></script>
+		<!-- import google chart js -->
+		<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<title>Run! Space Elves</title>
+		<link rel="icon" href="img/logo.png">
+		<!-- CSS FILES -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/uikit@latest/dist/css/uikit.min.css">
+		<link rel="stylesheet" type="text/css" href="css/marketing.css">
+
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+
+	</head>
+	<body>
+		<!-- TOP -->
+		<div class="top-wrap uk-position-relative uk-light uk-background-secondary">
+
+			<!-- NAV -->
+			<div class="nav" data-uk-sticky="cls-active: uk-background-secondary uk-box-shadow-medium; top: 100vh; animation: uk-animation-slide-top">
+				<div class="uk-container">
+					<nav class="uk-navbar uk-navbar-container uk-navbar-transparent" data-uk-navbar>
+						<div class="uk-navbar-left">
+							<div class="uk-navbar-item uk-padding-remove-horizontal">
+								<a class="uk-logo" title="Logo" href=""><img src="img/logo.png" alt="Logo">Run! Space Elves</a>
+							</div>
+						</div>
+						<div class="uk-navbar-right">
+							<ul class="uk-navbar-nav uk-visible@s">
+								<li class="uk-active uk-visible@m"><a href="" data-uk-icon="home"></a></li>
+								<li><a href="">Design Process</a></li>
+								<li><a href="">Literature Review</a></li>
+								<li>
+									<a href="#" data-uk-icon="chevron-down">Primary Research</a>
+									<div class="uk-navbar-dropdown">
+										<ul class="uk-nav uk-navbar-dropdown-nav">
+											<li><a href="#">Survey</a></li>
+											<li><a href="#">Field Study</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#" data-uk-icon="chevron-down">Develop</a>
+									<div class="uk-navbar-dropdown">
+										<ul class="uk-nav uk-navbar-dropdown-nav">
+											<li><a href="#">Main Function</a></li>
+											<li><a href="#">User Journey Map</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+							<a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<!-- /NAV -->
+
+			<div class="uk-cover-container uk-light uk-flex uk-flex-middle top-wrap-height">
+
+				<!-- TOP CONTAINER -->
+				<div class="uk-container uk-flex-auto top-container uk-position-relative uk-margin-medium-top" data-uk-parallax="y: 0,50; easing:0; opacity:0.2">
+					<div class="uk-width-1-2@s" data-uk-scrollspy="cls: uk-animation-slide-right-medium; target: > *; delay: 150">
+						<h1 class="uk-margin-remove-top">Run! Space Elves</h1>
+						<p class="subtitle-text uk-visible@s">The physical exercise issue about the research project is meaningful, and in order to solve the user's sports needs and apply scientific problems to interaction design, we use a series of technology integration games and designed sports mobile software, which combined it with AR and games, and conducted a comprehensive survey and academic analysis of the target users.  </p>
+						<a href="https://www.figma.com/proto/l8oyqF6JphnKw1ylxl2Hyq/Hi-fi?page-id=0%3A1&node-id=1%3A4054&viewport=838%2C846%2C0.2521243095397949&scaling=scale-down" title="Learn More" class="uk-button uk-button-primary uk-border-pill" data-uk-scrollspy-class="uk-animation-fade">PROTOTYPE</a>
+					</div>
+				</div>
+				<!-- /TOP CONTAINER -->
+				<!-- TOP IMAGE -->
+				<img src="img/cover1.png"  alt="" data-uk-cover data-uk-img data-uk-parallax="opacity: 1,0.1; easing:0">
+			</div>
+			<div class="uk-position-bottom-center uk-position-medium uk-position-z-index uk-text-center">
+				<a href="#content" data-uk-scroll="duration: 500" data-uk-icon="icon: arrow-down; ratio: 2"></a>
+			</div>
+		</div>
+    <!-- /DESIGN PROCESS-->
+		<section id="content" class="uk-section uk-section-default uk-padding-remove-bottom">
+			<div class="uk-container">
+				<h2>Design Process</h2>
+				 <div class="uk-grid uk-grid-large uk-child-width-1-4@s uk-padding" data-uk-grid data-uk-scrollspy="target: > div; delay: 500; cls: uk-animation-slide-top-medium">
+						<div class="uk-text-center">
+							<img src="img/literature.png" width=160px>
+							<h4 class="uk-margin-small-bottom uk-margin-top uk-margin-remove-adjacent">Literature Review</h4>
+							<p>Providing theoretical support for the envisioned concept.</p>
+						</div>
+						<div class="uk-text-center">
+							<img src="img/Primary Research.png" width=160px>
+							<h4 class="uk-margin-small-bottom uk-margin-top uk-margin-remove-adjacent">Primary Research</h4>
+							<p>Use some research methods to support the design.</p>
+						</div>
+						<div class="uk-text-center">
+							<img src="img/Develop.png" width=160px>
+							<h4 class="uk-margin-small-bottom uk-margin-top uk-margin-remove-adjacent">Develop</h4>
+							<p>Carry out prototypingy.</p>
+						</div>
+						<div class="uk-text-center">
+							<img src="img/Test.png" width=160px>
+							<h4 class="uk-margin-small-bottom uk-margin-top uk-margin-remove-adjacent">Test</h4>
+							<p>Testing the prototype, get feedback from users and improve.</p>
+						</div>
+					</div>
+			</div>
+		</section>
+		<!-- /LITERATURE REVIEW-->
+		<section id="content" class="uk-section uk-section-default">
+			<div class="uk-container">
+				<h2>Literature Review</h2>
+				<p>With respect to user services, solution modeling, and data synchronization, we found five appropriate kinds of literature all written by doctors or professors from the university, through the search engine of 2D Search.
+				We deliberately select articles with a variety of both qualitative and quantitative research from reputable journals whose work was cited in a sufficient amount of other academic works. All the articles were published between 2010 and 2020 ensuring their recency reflecting their relevance and efficacy.
+				</p>
+				<div class="uk-padding">
+		        <ul class="uk-list uk-list-bullet">
+		            <li>
+									<h4>Physical Activity of Office Workers</h4>
+									<blockquote cite="https://www.researchgate.net/profile/Elzbieta-Biernat/publication/49600295_Physical_activity_of_office_workers/links/02bfe5100e2dc343c6000000/Physical-activity-of-office-workers.pdf">
+										<p class="uk-margin-small-bottom">Rapid progress of civilization almost completely deprives of
+																											the opportunity to movement and physical effort. It eliminates from
+																											the everyday work all these forms based on physical activity and
+																											simple physical effort, leaving mainly monotonous activities that
+																											unevenly load the individual parts and systems of the human body.</p>
+										<footer>Biernat, Tomaszewski and Milde, 2010  <cite><a href="https://www.researchgate.net/profile/Elzbieta-Biernat/publication/49600295_Physical_activity_of_office_workers/links/02bfe5100e2dc343c6000000/Physical-activity-of-office-workers.pdf" target="_blank">Physical Activity of Office Workers</a></cite></footer>
+									</blockquote>
+								</li>
+		            <li>
+									<h4>Gamification in sport apps</h4>
+									<blockquote cite="https://www.emerald.com/insight/content/doi/10.1108/EJMBE-09-2019-0163/full/html">
+										<p class="uk-margin-small-bottom">Gamification is a tool with great potential to motivate individuals to increase their physical activity. </p>
+										<footer>Bitrián, Buil and Catalán, 2020  <cite><a href="https://www.emerald.com/insight/content/doi/10.1108/EJMBE-09-2019-0163/full/html" target="_blank"> Gamification in sport apps: the determinants of users' motivation</a></cite></footer>
+									</blockquote>
+								</li>
+		            <li>
+									<h4>The relationship between personality traits and susceptibility to social influence</h4>
+									<blockquote cite="https://www.sciencedirect.com/science/article/abs/pii/S074756321930041X">
+										<p class="uk-margin-small-bottom">Research has shown that social influence can be leveraged as a persuasive strategy to elicit beneficial behaviors, especially if it is tailored to the target audience. </p>
+										<footer>Oyibo and Vassileva, 2019  <cite><a href="https://www.sciencedirect.com/science/article/abs/pii/S074756321930041X" target="_blank">The relationship between personality traits and susceptibility to social influence</a></cite></footer>
+									</blockquote>
+								</li>
+								<li>
+									<h4>Does Social User Experience Improve Motivation for Runners?</h4>
+									<blockquote cite="https://link.springer.com/chapter/10.1007/978-3-319-07638-6_35">
+										<p class="uk-margin-small-bottom">In efforts to enhance the user experience (UX), mobile fitness applications are beginning to incorporate gameplay mechanics and social elements in their design. Unlike the more traditional health applications, m-health applications can provide a richer social user experience that caters to mobile usage contexts, such as fitness.</p>
+										<footer>Spillers and Asimakopoulos, 2014  <cite><a href="https://link.springer.com/chapter/10.1007/978-3-319-07638-6_35" target="_blank">Does Social User Experience Improve Motivation for Runners?</a></cite></footer>
+									</blockquote>
+								</li>
+		        </ul>
+					</div>
+			</div>
+		</section>
+		<!-- /PRIMARY RESEARCH-->
+		<section id="content" class="uk-section uk-section-default uk-padding-remove-top">
+			<div class="uk-container">
+				<h2>Primary Research</h2>
+					<h3>-Survey-</h3>
+					<p>For beginning research, we reached out digital surveys to targeted office workers, and the survey covers questions of multiple aspects when they are doing outdoor running: demographic info, running habits, motivation, use of digital aids, connection with others, and gamification.</p>
+						<div class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-right-medium">
+							<div data-uk-scrollspy-class="uk-animation-slide-left-medium">
+								<h6 class="uk-text-primary">DATA 1</h6>
+								<h2 class="uk-margin-small-top">Age distribution of participants</h2>
+								<p class="subtitle-text">
+					 			We get 63 responses in total, 81% of whom range from age 16 to age 25, with the rest older than 25. We also addressed on-street interviews in the neighbourhoods around the Shard thus got responses from 17 ideal interviewees whose ages range from 20 to 35.
+								</p>
+							</div>
+							<div class="uk-grid uk-grid uk-child-width-expand@s uk-padding" data-uk-grid data-uk-scrollspy="target: > div; delay: 500; cls: uk-animation-slide-right-medium">
+		 						<div class="uk-text-center">
+									<svg>
+									  <circle style="fill: #ff9750" stroke="black" cx=48 cy=50 r=46></circle>
+									</svg>
+		 							<p>Age: 16-25 (51/63)</p>
+		 						</div>
+		 						<div class="uk-text-center">
+									<svg>
+									  <circle style="fill: #ff9750" stroke="black" cx=55 cy=50 r=25></circle>
+									</svg>
+		 							<p>Age: 26-35 (10/63)</p>
+		 						</div>
+		 						<div class="uk-text-center">
+									<svg>
+									  <circle style="fill: #ff9750" stroke="black" cx=55 cy=50 r=8></circle>
+									</svg>
+		 							<p>Age: 36-45 (1/63)</p>
+		 						</div>
+		 						<div class="uk-text-center">
+									<svg>
+									  <circle style="fill: #ff9750" stroke="black" cx=55 cy=50 r=8></circle>
+									</svg>
+		 							<p>Age: 45+ (1/63)</p>
+		 						</div>
+		 					</div>
+						</div>
+						<div class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-left-medium">
+							<div>
+								<h6 class="uk-text-center subtitle-text">What do you bring to your daily running?</h6>
+								<div id="my_dataviz"></div>
+						    <script>
+						    var margin = {top: 10, right: 30, bottom: 40, left: 140},
+						        width = 460 - margin.left - margin.right,
+						        height = 350 - margin.top - margin.bottom;
+
+						    var svg = d3.select("#my_dataviz")
+						      .append("svg")
+						        .attr("width", width + margin.left + margin.right)
+						        .attr("height", height + margin.top + margin.bottom)
+						      .append("g")
+						        .attr("transform",
+						              "translate(" + margin.left + "," + margin.top + ")");
+
+						    d3.csv("https://raw.githubusercontent.com/eva-linxuewei/sandbox-cw3/main/equipment.csv", function(data){
+
+						    data.sort(function(b, a) {
+						      return a.number - b.number;
+						    });
+
+						    var x = d3.scaleLinear()
+						      .domain([0, 53])
+						      .range([ 0, width]);
+						    svg.append("g")
+						      .attr("transform", "translate(0," + height + ")")
+						      .call(d3.axisBottom(x))
+						      .selectAll("text")
+						        .attr("transform", "translate(-10,0)rotate(-45)")
+						        .style("text-anchor", "end");
+
+						    var y = d3.scaleBand()
+						      .range([ 0, height ])
+						      .domain(data.map(function(d) { return d.equipment; }))
+						      .padding(1);
+						    svg.append("g")
+						      .call(d3.axisLeft(y))
+
+						    svg.selectAll("myline")
+						      .data(data)
+						      .enter()
+						      .append("line")
+						        .attr("x1", x(0))
+						        .attr("x2", x(0))
+						        .attr("y1", function(d) { return y(d.equipment); })
+						        .attr("y2", function(d) { return y(d.equipment); })
+						        .attr("stroke", "grey")
+
+						    svg.selectAll("mycircle")
+						      .data(data)
+						      .enter()
+						      .append("circle")
+						        .attr("cx", x(0) )
+						        .attr("cy", function(d) { return y(d.equipment); })
+						        .attr("r", "7")
+						        .style("fill", "#ff9750")
+						        .attr("stroke", "black")
+
+						    svg.selectAll("circle")
+						      .transition()
+						      .duration(2000)
+						      .attr("cx", function(d) { return x(d.number); })
+
+						    svg.selectAll("line")
+						      .transition()
+						      .duration(2000)
+						      .attr("x1", function(d) { return x(d.number); })
+
+						    })
+
+						    </script>
+							</div>
+							<div data-uk-scrollspy-class="uk-animation-slide-right-medium">
+								<h6 class="uk-text-primary">DATA 2</h6>
+								<h2 class="uk-margin-small-top">What equipment do you carry when you run?</h2>
+								<p class="subtitle-text">
+									We infer that digital apps on smartphones and smartwatches are especially helpful for beginning runners: as the resulting Bar chart 1 indicates 73% of the interviewees are willing to be aided through running with digital devices in a strong preference on phone (53/63-84.1%), earphone (11/63-17.5%), and smartwatch (46/63-73%).
+								</p>
+							</div>
+						</div>
+						<div class="uk-grid uk-child-width-1-2@l uk-flex-middle" data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-slide-right-medium">
+							<div data-uk-scrollspy-class="uk-animation-slide-left-medium">
+								<h6 class="uk-text-primary">DATA 3</h6>
+								<h2 class="uk-margin-small-top">What are the main functions of the app?</h2>
+								<p class="subtitle-text">
+								 Besides, among the participants who do not refuse necessary facilitation of apps, we get high votes on the following necessary functions: 35/63 on recording routes, speed, & steps, 27/63 on health & fitness data, 20/63 on sharing routines & moments, 8/63 on tutorial guidances, and 3/63 on others.
+								</p>
+							</div>
+							<div>
+									<div id="chart_div"></div>
+							</div>
+						</div>
+
+			</div>
+		</section>
+		<section class="uk-section uk-section-secondary">
+			<div class="uk-container">
+				<h3>-Field Study-</h3>
+				<div class="uk-column-1-2">
+					<h4>Gaol</h4>
+					<p>Understanding how users run, where they run, how they feel psychologically and how they behave after running.</p>
+					<h4>Location</h4>
+					<p>Parks, Lakeside, Streets</p>
+				</div>
+				<div>
+					<h4>Interview</h4>
+					<p>In order to further understand the frequency of users' running, whether users have trouble sticking to their running, and whether they are willing to share their running data with friends after running? Do users feel uncomfortable when running? Have users played any fitness games or AR games? We conducted a street interview and here are the pictures of the interview.</p>
+					<div class="uk-position-relative uk-visible-toggle uk-padding" tabindex="-1" uk-slideshow="animation: push">
+
+			    <ul class="uk-slideshow-items">
+			        <li>
+			            <img src="img/Interview2.png" alt="" uk-cover>
+			            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+			                <h2 class="uk-margin-remove">Interviewee A</h2>
+			                <p class="uk-margin-remove">Youth, walking by the lake</p>
+			            </div>
+			        </li>
+			        <li>
+			            <img src="img/Interview1.png" alt="" uk-cover>
+			            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+			                <h3 class="uk-margin-remove">Interviewee B</h3>
+			                <p class="uk-margin-remove">Youth, running</p>
+			            </div>
+			        </li>
+			        <li>
+			            <img src="img/Interview3.png" alt="" uk-cover>
+			            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+			                <h3 class="uk-margin-remove">Interviewee C</h3>
+			                <p class="uk-margin-remove">Youth, listening to music and walking</p>
+			            </div>
+			        </li>
+			        <li>
+			            <img src="img/Interview4.png" alt="" uk-cover>
+			            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+			                <h3 class="uk-margin-remove">Interviewee D and E</h3>
+			                <p class="uk-margin-remove">Middle-aged couple with children</p>
+			            </div>
+			        </li>
+							<li>
+									<img src="img/Interview5.png" alt="" uk-cover>
+									<div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+											<h3 class="uk-margin-remove">Interviewee F, G, H, and I</h3>
+											<p class="uk-margin-remove">Two young couples. Four people were chatting by the lake</p>
+									</div>
+							</li>
+
+			    </ul>
+
+			    <div class="uk-light">
+			        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+			        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+			    </div>
+
+				</div>
+				</div>
+
+				<div class="uk-grid">
+					<div class="uk-width-1-2"  data-uk-scrollspy="cls: uk-animation-fade">
+						<h4 class="uk-margin-small-top">Field Research</h4>
+						<p class="subtitle-text">Geographic and Behavioural Observations</p>
+						<p>
+							GPS tracking reveals that people tend to run for closure trails. They complete closures with the origin as the starting point. Distances range from 3km-5km. Their choices of running places are most likely along riversides. 4 normally choose leisure places (e.g. parks); 1 run randomly on street; 1 run on playground.
+						</p>
+					</div>
+					<div class="uk-width-1-2" data-uk-scrollspy="cls: uk-animation-fade">
+						<div id="mapid" style="width: 600px; height: 450px;"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /DEVELOP-->
+
+		<section id="content" class="uk-section uk-section-default">
+			<div class="uk-container">
+				<div>
+					<h2>Develop</h2>
+					<h3>-Persona-</h3>
+					<p>The preliminary investigations help us sum up two representative personas: Jarrod and Teresa. Jarrod represents the group type of being extroverted, analytical, sensible, loyal to plans, and self-activated. He states that the goal for engaging in running is to stay in shape and gain emotional relaxation off work--although he is able to run on a regular basis, sometimes there could be a hard time running without proper guidance. The Space elves game gives the entertaining elements and guidance through running.
+					</p>
+					<p>Teresa represents the group type of rather introverted, creative, loyal to plans. Compared to Jarrod, she is not that same self-motivated at running and complains children keep her busy so that she may forget running at weekends. However, she feels regular running is an ideal habit since it keeps her energetic. Space elves' game helps her enhance her passion by splitting persistent running goals into smaller tasks. User journey map also visualizes the two users’ life conditions at different stages--before, during, and after running.
+					</p>
+				</div>
+				<div class="uk-position-relative" uk-slideshow="animation: fade">
+			    <ul class="uk-slideshow-items">
+			        <li>
+			            <img src="img/Persona1.png" width="675" height="380" alt="" uk-cover>
+			        </li>
+			        <li>
+			            <img src="img/Persona2.png" width="675" height="380" alt="" uk-cover>
+			        </li>
+			    </ul>
+			    <div class="uk-position-bottom-center uk-position-small">
+			        <ul class="uk-thumbnav">
+			            <li uk-slideshow-item="0"><a href="#"><img src="img/Persona1.png" width="100" alt=""></a></li>
+			            <li uk-slideshow-item="1"><a href="#"><img src="img/Persona2.png" width="100" alt=""></a></li>
+			        </ul>
+			    </div>
+		</section>
+		<section class="uk-cover-container overlay-wrap">
+			<img src="img/housekeeper.jpg" alt="" data-uk-cover data-uk-img>
+			<div class="uk-container uk-position-z-index uk-position-relative uk-section uk-section-xlarge uk-light">
+				<div class="uk-grid uk-flex-right">
+
+					<div class="uk-width-2-5@m" data-uk-parallax="y: 50,-50; easing: 0; media:@l">
+						<h3>-Main Functions-</h3>
+						<h2>Housekeeper</h2>
+						<div class="uk-position-relative uk-visible-toggle uk-light" data-uk-slider="easing: cubic-bezier(.16,.75,.47,1)">
+							<h5 class="uk-margin-small-top">The process indicates how we developed the essential functionality “Housekeeper” which plays as the intelligent helper to remind the user of daily fitness strength. Data reveals the tendency of office workers’ major concerning aspects: goal achieving (34/63-54%), perseverance (18/63-28.6%), safety aspects (5/63-7.9%), etc. Moreover, we dig into each concerning aspect:
+							</h5>
+							<ul>
+									<li>
+										<h5>Goal Achieving</h5>
+									</li>
+									<li>
+										<h5>Perseverance</h5>
+									</li>
+									<li>
+										<h5>Safety Issues</h5>
+									</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<section class="uk-cover-container overlay-wrap">
+			<img src="img/Running.jpg"alt="" data-uk-cover data-uk-img>
+			<div class="uk-container uk-position-z-index uk-position-relative uk-section uk-section-xlarge uk-light">
+				<div class="uk-grid uk-flex-left">
+
+					<div class="uk-width-2-5@m" data-uk-parallax="y: 50,-50; easing: 0; media:@l">
+						<h3>-Main Functions-</h3>
+						<h2>VR Game</h2>
+						<div class="uk-position-relative uk-visible-toggle uk-light" data-uk-slider="easing: cubic-bezier(.16,.75,.47,1)">
+							<h5 class="uk-margin-small-top">Run! Space Elves is a game that combines AR technology and running. Players collect a variety of different space pets through sports to become an excellent trainer. Players obtain Space energy and seeds by completing daily sports goals, and use them to incubate and evolve their own unique Space pets. The Space monsters and plants set in the game can be seen in real time through AR, which gives players more fun and motivation to run with.
+							</h5>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
+		<section  id="content" class="uk-section uk-section-default">
+			<div class="uk-container">
+					<h3>-User Journey Map-</h3>
+					<p>User journey map also visualizes the two users’ life conditions at different stages--before, during, and after running.</p>
+					<img src="img/Frame.png">
+			</div>
+
+		</section>
+		<!-- /TEST-->
+		<section id="content" class="uk-section uk-section-default">
+			<div class="uk-container">
+				<h2>Test</h2>
+					<h3>-Tree Test-</h3>
+					<p>It is a method for evaluating the proposed site structure by asking users to find items based on-site organisation and terminology. We recruited 10 testers as our target users to conduct a tree test on the running application. All the 10 participants had previous work experience and had recently participated in outdoor running. The details of participation are shown in Table 2. This test was conducted remotely through the website of OptimalWorkshop, and for the tree test task we set up three task flows in three different states of running. See Table 3 for specific tasks.
+					</p>
+					<h3>-Usability Test-</h3>
+					<p>This method of evaluating user interfaces involves using a combination of methods to collect data in a controlled environment. The primary goal is to determine whether a project can be used by the intended user group to perform the tasks for which it was designed. This project was based on a prototype we designed about running for participants to test. In order to ensure the validity of the test results, we made the testing process all live and collaborative, so we developed a detailed usability testing scenario of 18 task scenarios, see Table 4.  As the testing content of the entire project was expected to be evaluated in the field, we selected two participations out of the 10 remote testers to be our usability testers.
+					</p>
+			</div>
+		</section>
+
+		<!-- JS FILES -->
+		<script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/uikit@latest/dist/js/uikit-icons.min.js"></script>
+		<script>
+					google.charts.load('current', {
+			  packages: ['corechart', 'bar']
+			});
+			google.charts.setOnLoadCallback(drawBasic);
+
+			function drawBasic() {
+
+			  var data = google.visualization.arrayToDataTable([
+			    ['Functions', 'Paticipants', ],
+			    ['Record routes, speed, steps', 35],
+			    ['Health and fitness data', 27],
+			    ['Share routes and info', 20],
+			    ['Tutorials', 8],
+			    ['Others', 3]
+			  ]);
+
+			  var options = {
+			    title: 'What are the main functions of the app?',
+			    chartArea: {
+			      width: '60%',	height: '100%'
+			    },
+					colors: ['#ff9750'],
+			    hAxis: {
+			      title: 'Paticipants',
+			      minValue: 0
+			    },
+			    vAxis: {
+			      title: 'Functions'
+			    }
+			  };
+
+			  var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+
+			  chart.draw(data, options);
+			}
+		</script>
+		<script>
+
+			var mymap = L.map('mapid').setView([51.505, -0.09], 14);
+
+			L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+				maxZoom: 18,
+				attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+					'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+				id: 'mapbox/streets-v11',
+				tileSize: 512,
+				zoomOffset: -1
+			}).addTo(mymap);
+
+
+
+			L.polygon([
+				[51.506672363145654, -0.08769750595092772],
+				[51.50621826506825, -0.08823394775390625],
+				[51.50583094254364, -0.08574485778808594],
+				[51.502612031433955, -0.077548027038574],
+				[51.504375114645434, -0.07638931274414062],
+				[51.50611141780412, -0.08282661437988281],
+				[51.506672363145654, -0.08769750595092772]
+			]).addTo(mymap).bindPopup("This is running route one.");
+
+			// L.polygon([
+			// 	[51.502091107430715, -0.08793354034423827],
+			// 	[51.503052808631864, -0.09162425994873047],
+			// 	[51.50091566729007, -0.09304046630859375],
+			// 	[51.49909901834819, -0.09703159332275389],
+			// 	[51.49621360354591, -0.09286880493164062],
+			// 	[51.49450364191158, -0.09278297424316405],
+			// 	[51.4947975461326, -0.08505821228027344],
+			// 	[51.49760290014123, -0.08029460906982422],
+			// 	[51.50003406728849, --0.08737564086914062],
+			// 	[51.502091107430715, -0.08793354034423827]
+			// ]).addTo(mymap).bindPopup("This is running route two.");
+
+			var popup = L.popup();
+
+			function onMapClick(e) {
+				popup
+					.setLatLng(e.latlng)
+					.setContent("You clicked the map at " + e.latlng.toString())
+					.openOn(mymap);
+			}
+
+			mymap.on('click', onMapClick);
+
+		</script>
+
+
+	</body>
+</html>
